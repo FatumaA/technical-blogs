@@ -156,10 +156,7 @@ Open another terminal window and run the following commands sequentially to log 
 After which, run the following command to create a new function:  
 `supabase functions new name-of-function`
 
-Add an ".env" file within the created Supabase directory with the following values:  
-`SEND_EMAIL=your-sending-email POSTMARK_API_TOKEN=your-postmark-key`
-
-Then run `supabase secrets set --env-file ./supabase/.env` for the CLI to pick up the variables. The Supabase-specific variables such as the project URL and keys come already prepopulated and available.
+The Supabase-specific variables such as the project URL and keys come already prepopulated and available.
 
 Replace the contents in the functions/name-of-function/index.ts file with the following:
 
@@ -233,7 +230,7 @@ In this code block, we are setting up our Supabase client with the service role 
 
 We then handle CORS, extract the email from the incoming request, call the CreateUser method exposed by the Supabase SDK - passing the email, and handle the error case.
 
-In the case that we successfully create the user, we call the invote user method and pass the email to it. This method sends the newly created user an invite email while handling the error case.
+In the case that we successfully create the user, we call the invite user method and pass the email to it. This method sends the newly created user an invite email while handling the error case.
 
 Deploy your function to the remote Supabase project by running the following command in the terminal:  
 `supabase functions deploy name-of-function`
@@ -307,7 +304,7 @@ END;
 $$ LANGUAGE plpgsql SECURITY DEFINER;
 ```
 
-The codesnippet above creates an insert\_user\_data function that returns a trigger that does the check based on user\_role every time a new record is inserted in the auth table.
+The code snippet above creates an insert\_user\_data function that returns a trigger that does the check based on user\_role every time a new record is inserted in the auth table.
 
 Now, we can retest the application and we should have a record in the relevant table as well as the auth table. Our invited users should have also received an email that brings them back to our application.
 
