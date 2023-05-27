@@ -4,6 +4,7 @@ datePublished: Sat May 27 2023 14:07:06 GMT+0000 (Coordinated Universal Time)
 cuid: cli62fwx0000109l22hy0cynt
 slug: create-and-invite-users-to-your-admin-app-using-supabase-edge-functions
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1685196297394/e2a3621b-edae-4b24-9a0c-83f1093e3d00.png
+ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1685197188081/1ce0dfc4-2e86-44ea-9c80-369072cfb49d.png
 tags: postgres, flutter, supabase
 
 ---
