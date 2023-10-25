@@ -16,7 +16,7 @@ First, the basics... or what even is Git? Git is an open-source version control 
 
 It is used to manage code files and the changes made to the files over time. Think of it like a tracker that tracks your file changes over time and keeps the file history; enabling you to roll back to a previous state of the file as needed.
 
-Git's distributed nature makes it a crucial tool for enabling seamless collaboration by enabling multiple individuals to work on the same codebase. This makes it particularly needed in team-based software development projects.
+Git's distributed nature makes it a crucial tool for enabling seamless collaboration by enabling multiple individuals to work on the same codebase. This makes it particularly needed in teams.
 
 ### Common Git and Git-Related Terms/Commands
 
@@ -155,7 +155,7 @@ pick 1875625 added about
 ~                                                                                                                      
 ~                                                                                                                      
 ~                                                                                                                      
-~      
+~
 ```
 
 You can modify any particular commit as needed and then save changes. You can also stop the rebase by running `git rebase --abort`. In case you have conflicts, you can run `git rebase --continue` after you have resolved the conflicts so that the rebase continues and completes.
@@ -179,8 +179,8 @@ It is best to do this, if at all before you push changes to a remote repository.
 
 ## What is GitHub?
 
-GitHub is a platform that hosts Git repositories remotely. It offers a web-based user interface that makes it easier to start using Git. When you create a code repository on GitHub, it initiates a corresponding Git repository in the background. This makes getting started with and understanding git a lot more straightforward.  
-  
+GitHub is a platform that hosts Git repositories remotely. It offers a web-based user interface that makes it easier to start using Git. When you create a code repository on GitHub, it initiates a corresponding Git repository in the background. This makes getting started with and understanding git a lot more straightforward.
+
 In addition, GitHub allows for extra collaboration and takes full advantage of Git's distributed nature. It does so by providing a point of reference, allowing its users to grab a copy of any given public repository and more easily coordinate on the same.
 
 ***Note: While GitHub is very popular, it is not the only such application. There are alternatives including BitBucket.***
@@ -191,9 +191,8 @@ So how exactly do Git and GitHub allow for multiple developers in multiple place
 
 In the case of a local repo, Git directly gives you the ability to branch off your main repo essentially creating a local copy of your repo. You can make changes to this branch without affecting the original state of your repo. You can keep this new branch of your repo, delete it or bring any changes made back into the original state of the repo (thus, changing it).
 
-  
-In the case of a remote repo, GitHub would have already initialized a Git repo for you. You can grab a copy of your remote repo and set it up locally. You can then make changes and use all git features. These local changes won't change the state of your remote repo unless you explicitly command git to synchronize your changes.  
-  
+In the case of a remote repo, GitHub would have already initialized a Git repo for you. You can grab a copy of your remote repo and set it up locally. You can then make changes and use all git features. These local changes won't change the state of your remote repo unless you explicitly command git to synchronize your changes.
+
 Where ease of collaboration shines through is when multiple developers have a copy of one remote repository. They can each make changes without affecting each other and when ready they can sy nchronize their changes. Git and GitHub will notify each developer in the case that their local copy is in conflict with the shared remote repository and will guide them on how best to solve the conflicts. This ensures collaboration without the developers overwriting each other.
 
 ## What about Github Desktop?
@@ -204,16 +203,16 @@ It makes it much easier to effectively use Git as it visually shows Git's main f
 
 ## Command Line Vs. GitHub Desktop
 
-Strictly speaking, you don't need GitHub Desktop. But there is no shame in using a GUI if it makes your life easier. For this, I say use the one you are most comfortable with because you will be more productive that way.  
-  
+Strictly speaking, you don't need GitHub Desktop. But there is no shame in using a GUI if it makes your life easier. For this, I say use the one you are most comfortable with because you will be more productive that way.
+
 Besides, who says you can't use both? 😅.
 
 ## On Git and VS Code
 
 *This section only applies to developers who use* [*Visual Studio Code*](https://code.visualstudio.com/download) *as their code editor.*
 
-VS Code comes with Git support. You do not need to do anything in particular to use Git other than having it installed on your system. However, you can connect vs code to your GitHub account directly. This brings GitHub Desktop capabilities into vs code so you won't need to switch views as much. This increases productivity and might reduce your use of GitHub Desktop.  
-  
+VS Code comes with Git support. You do not need to do anything in particular to use Git other than having it installed on your system. However, you can connect vs code to your GitHub account directly. This brings GitHub Desktop capabilities into vs code so you won't need to switch views as much. This increases productivity and might reduce your use of GitHub Desktop.
+
 You can find details of how to integrate vs code with GitHub and more on that [here](https://vscode.github.com/).
 
 ## Best practices?
