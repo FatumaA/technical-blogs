@@ -3,7 +3,7 @@ title: "Golang Syntax, Concepts and Eco-System"
 datePublished: Mon Feb 19 2024 04:50:19 GMT+0000 (Coordinated Universal Time)
 cuid: clssgk69y001309l8g3oqar6j
 slug: golang-syntax-concepts-and-eco-system
-cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1708318387267/4ff907d0-7ae7-4d81-8386-36017aeed22d.png
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1708336418762/16e7d41d-ec80-4997-9376-1c79df6583fd.png
 tags: go, golang, golang-developer, gobasics
 
 ---
