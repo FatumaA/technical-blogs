@@ -1,9 +1,10 @@
 ---
 title: "Accept Payments For Your African-Based Business Using Supabase Edge Functions and Paystack"
+seoTitle: "African Business Payments with Supabase & Paystack"
 datePublished: Tue Dec 06 2022 17:05:15 GMT+0000 (Coordinated Universal Time)
 cuid: clbch2hte000608mp7h4fb386
 slug: accept-payments-for-your-african-based-business-using-supabase-edge-functions-and-paystack
-cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1670346898238/HE87CfWGc.png
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1713784678495/89de70b6-1ff5-4b9b-bfe0-3ff2dfc8ba09.png
 tags: functions, payment-gateway, supabase, paystack
 
 ---
