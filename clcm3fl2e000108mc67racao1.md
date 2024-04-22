@@ -1,9 +1,11 @@
 ---
 title: "My 2022? Reflections (Dev Retro 2022)"
+seoTitle: "2022 Dev Reflections"
+seoDescription: "Reflections on a tech journey in 2022, from setbacks to successes, freelance gigs, tech talks, and personal growth"
 datePublished: Sat Jan 07 2023 15:20:55 GMT+0000 (Coordinated Universal Time)
 cuid: clcm3fl2e000108mc67racao1
 slug: my-2022-reflections-dev-retro-2022
-cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1673104734519/fd2e88e0-3a86-4b7e-a2dd-38204d1ee995.png
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1713785493993/2711d783-1681-4323-8266-8917e058d645.png
 tags: opensource, flutter, mentalhealth-1, supabase, devretro2022
 
 ---
