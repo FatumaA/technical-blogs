@@ -1,10 +1,10 @@
 ---
 title: "Build An Image Gallery With Flutter Web And Supabase Storage"
+seoTitle: "Flutter Web Image Gallery Tutorial"
 datePublished: Tue Apr 25 2023 19:57:10 GMT+0000 (Coordinated Universal Time)
 cuid: clgwouufi000s09l29yd9cmmt
 slug: build-an-image-gallery-with-flutter-web-and-supabase-storage
-cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1682516382970/b9e05ea5-6f3f-4033-a429-f30b88aea8d5.png
-ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1682452609256/06a983f1-e854-4670-800c-d3c2775bdea3.png
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1713785341571/84ea0afa-2b07-479d-b9cf-5512d0be96f1.png
 tags: flutter, storage, flutter-web, flutter-examples, supabase
 
 ---
