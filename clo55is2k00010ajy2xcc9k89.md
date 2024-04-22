@@ -1,9 +1,10 @@
 ---
 title: "Notes on Git, GitHub and GitHub Desktop"
+seoDescription: "Learn about Git, GitHub, and GitHub Desktop basics, commands, collaboration, and best practices for efficient code management and seamless teamwork"
 datePublished: Wed Oct 25 2023 02:43:47 GMT+0000 (Coordinated Universal Time)
 cuid: clo55is2k00010ajy2xcc9k89
 slug: notes-on-git-github-and-github-desktop
-cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1698188283499/5d19e48b-333f-4e10-8d0e-35da0fba67da.png
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1713784423674/e95c2132-4d27-4529-95e3-fcff47efe497.png
 tags: github, git, collaboration, github-desktop
 
 ---
