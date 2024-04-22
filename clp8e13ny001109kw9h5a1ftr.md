@@ -3,7 +3,7 @@ title: "Markdown Basics and Beyond"
 datePublished: Tue Nov 21 2023 13:44:59 GMT+0000 (Coordinated Universal Time)
 cuid: clp8e13ny001109kw9h5a1ftr
 slug: markdown-basics-and-beyond
-cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1700574275145/88eb3ec2-b8a7-4571-819b-906b745c3b88.png
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1713784057133/09c66d45-f433-4796-848f-2ca5246daf82.png
 tags: markdown, technical-writing-1, markdown-cheat-sheet, markdown-how-to-write-markdown-file, markdown-syntax
 
 ---
