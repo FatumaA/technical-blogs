@@ -1,9 +1,10 @@
 ---
 title: "Firebase 2021 Summit Feature Recap 🔥🔥🔥"
+seoTitle: "Firebase Summit Recap"
 datePublished: Fri Nov 12 2021 16:09:29 GMT+0000 (Coordinated Universal Time)
 cuid: ckvwkseio02lp3xs14vvy883x
 slug: firebase-2021-summit-feature-recap
-cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1636732891787/jWYPpik49.jpeg
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1713787355606/d70e7bbd-9235-4e48-ab8d-fb4c6e6102e5.png
 tags: firebase
 
 ---
