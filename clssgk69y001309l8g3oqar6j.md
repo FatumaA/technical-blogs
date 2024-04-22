@@ -1,9 +1,11 @@
 ---
 title: "Golang Syntax, Concepts and Eco-System"
+seoTitle: "Golang Overview"
+seoDescription: "Learn about Golang syntax, concepts, and its eco-system. Discover Go basics, data types, functions, and more for efficient programming"
 datePublished: Mon Feb 19 2024 04:50:19 GMT+0000 (Coordinated Universal Time)
 cuid: clssgk69y001309l8g3oqar6j
 slug: golang-syntax-concepts-and-eco-system
-cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1708336418762/16e7d41d-ec80-4997-9376-1c79df6583fd.png
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1713783780957/c2d407eb-34c2-410e-aabb-6c9fb00f3cfd.png
 tags: go, golang, golang-developer, gobasics
 
 ---
