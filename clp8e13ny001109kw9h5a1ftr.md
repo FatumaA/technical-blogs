@@ -1,5 +1,7 @@
 ---
 title: "Markdown Basics and Beyond"
+seoTitle: "Markdown Overview"
+seoDescription: "Learn Markdown basics and advanced syntax for versatile text manipulation. Discover why Markdown is essential for technical documentation"
 datePublished: Tue Nov 21 2023 13:44:59 GMT+0000 (Coordinated Universal Time)
 cuid: clp8e13ny001109kw9h5a1ftr
 slug: markdown-basics-and-beyond
