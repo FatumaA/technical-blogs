@@ -1,9 +1,11 @@
 ---
 title: "The Hardest Part Of Switching To Tech That No One Told You About"
+seoTitle: "Tech Switching Challenges"
+seoDescription: "Switching to tech brings challenges and self-doubt. Confront your regrets and embrace growth in this revealing journey"
 datePublished: Thu Nov 18 2021 11:21:41 GMT+0000 (Coordinated Universal Time)
 cuid: ckw4v5efd0c5vzks15vhucte7
 slug: the-hardest-part-of-switching-to-tech-that-no-one-told-you-about
-cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1637234205418/hQCIQKkGy.jpeg
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1713787161792/b82b3c1b-7010-4e28-a26d-ec2cb0be6a63.png
 tags: programming, technology, career, general-advice
 
 ---
