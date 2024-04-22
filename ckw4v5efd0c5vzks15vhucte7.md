@@ -5,7 +5,7 @@ seoDescription: "Switching to tech brings challenges and self-doubt. Confront yo
 datePublished: Thu Nov 18 2021 11:21:41 GMT+0000 (Coordinated Universal Time)
 cuid: ckw4v5efd0c5vzks15vhucte7
 slug: the-hardest-part-of-switching-to-tech-that-no-one-told-you-about
-cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1713787161792/b82b3c1b-7010-4e28-a26d-ec2cb0be6a63.png
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1713788176356/b06ef018-6771-4178-8a6f-90bc51b3750f.png
 tags: programming, technology, career, general-advice
 
 ---
