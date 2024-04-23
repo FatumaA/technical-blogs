@@ -450,7 +450,3 @@ Here are some resources that are useful:
     
 
 **Disclaimer:** *I'm yet to completely move to headless hashnode. At the time of writing, clicking on my blog posts will redirect back to a subdomain.*
-
-### Recap of the benefits of integrating search functionality
-
-### Final thoughts and next steps
