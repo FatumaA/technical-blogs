@@ -209,7 +209,7 @@ function Card({
 export default Card;
 ```
 
-Going back to the `page.tsx` file, paste this codebelow the getClient query, it will run on page load and populate the Supabase table.
+Going back to the `page.tsx` file, paste this code below the getClient query, it will run on page load and populate the Supabase table.
 
 ```typescript
 	} = await getClient().query({ query: getBlogsQuery });
