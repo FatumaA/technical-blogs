@@ -1,5 +1,5 @@
 ---
-title: "Firebase 2021 Summit Feature Recap 🔥🔥🔥"
+title: "Firebase 2021 Summit - Feature Recap 🔥🔥🔥"
 seoTitle: "Firebase Summit Recap"
 datePublished: Fri Nov 12 2021 16:09:29 GMT+0000 (Coordinated Universal Time)
 cuid: ckvwkseio02lp3xs14vvy883x
