@@ -1,5 +1,5 @@
 ---
-title: "Firebase 2021 Summit - Feature Recap 🔥🔥🔥"
+title: "Firebase 2021 Summit Feature Recap 🔥🔥🔥"
 seoTitle: "Firebase Summit Recap"
 datePublished: Fri Nov 12 2021 16:09:29 GMT+0000 (Coordinated Universal Time)
 cuid: ckvwkseio02lp3xs14vvy883x
@@ -36,4 +36,4 @@ For those of you who were unfortunate enough to miss the latest Firebase Summit,
 12. **Firebase Remote Config** Remote Config allows you to send configurations to your app without needing an official release. I know what you are thinking, "But Fatuma, that's not new!"... bear with me just a moment. Personalisation which is in BETA has been added to Remote Config. This means you can now automatically adjust your app in accordance to what suits each user! Think of all the User Experience points you could score with this feature.
     
 
-And that's pretty much a wrap. The features that I'm quite excited about are: AppCheck, Extensions, FlutterFire and the Unified Campaign Management. What are yours?
+And that's pretty much a wrap. The features that I'm the most excited about are: AppCheck, Extensions, FlutterFire and the Unified Campaign Management. What are yours?
