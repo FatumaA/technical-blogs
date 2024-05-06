@@ -6,7 +6,7 @@ datePublished: Tue Apr 23 2024 20:50:18 GMT+0000 (Coordinated Universal Time)
 cuid: clvcv18bm000408mjb3dt1v8m
 slug: how-to-add-search-to-your-headless-hashnode-blog-with-supabase-text-search-and-nextjs-14
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1713912927437/b2189f85-e5dd-40d9-a3ba-b80ed161c84c.png
-tags: search, database, nextjs, headless, supabase, headlesshashnode, fulltextsearch
+tags: search, database, webhooks, nextjs, headless, supabase, headlesshashnode, fulltextsearch
 
 ---
 
