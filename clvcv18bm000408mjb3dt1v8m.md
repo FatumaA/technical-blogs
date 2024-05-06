@@ -748,6 +748,82 @@ Additionally, you can see events related to the webhook at [`http://localhost:40
 
 ### How to Secure your Webhook
 
+The API route created above is publicly available and can be abused. To prevent this, you should verify that incoming requests are coming from Hashnode before running any other logic.
+
+Go back to your Hashnode dashboard and edit the webhook url then copy the secret at the bottom of the page. Add this secret to your env file.
+
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1715007354357/a67c86cb-7f70-415d-8661-fbaa16e9bc3f.png align="center")
+
+Paste the following code in your `route.ts` file just below the imports:
+
+```typescript
+import crypto from "crypto";
+
+const _validateSignature = (
+	incomingSignatureHeader: string | null,
+	secret: string,
+	payload: any
+): boolean => {
+	if (!incomingSignatureHeader) return false;
+
+	const parts = incomingSignatureHeader.split(",");
+	const timestamp = parts.find((part) => part.startsWith("t="))?.split("=")[1];
+	const signature = parts.find((part) => part.startsWith("v1="))?.split("=")[1];
+
+	if (!timestamp || !signature) return false;
+
+	const generatedSignature = crypto
+		.createHmac("sha256", secret)
+		.update(`${timestamp}.${JSON.stringify(payload)}`)
+		.digest("hex");
+
+	return crypto.timingSafeEqual(
+		Buffer.from(generatedSignature),
+		Buffer.from(signature)
+	);
+};
+```
+
+This defines a function that accepts the header, hashnode webhook secret and the incoming payload. It then pulls out the timestamp and signature and generates a new signature.
+
+The two signatures are compared and if they are a match the incoming request is verified and if not, the request is rejected.
+
+Paste the following code in the main POST function in `route.ts` at the top of the function body:
+
+```typescript
+const header = req.headers.get("X-Hashnode-Signature");
+	const secretKey = process.env.HASHNODE_WEBHOOK_SECRET;
+	const payload = await req.json();
+
+	const isValid = _validateSignature(header, secretKey!, payload);
+
+	if (!isValid) {
+		console.error("Invalid Signature");
+		return NextResponse.json({
+			status: 401,
+			statusText: "Invalid request",
+		});
+	}
+	console.log("Hashnode Webhook Received");
+
+	const {
+		data: {
+			post: { id },
+			eventType,
+		},
+	} = payload;
+```
+
+This calls the `validateSignature` function, passing it the data it needs and returns a boolean value. If the request is invalid it sends a `401` code and rejects the request.
+
+This secures the webhook endpoint and protects your application from malicious requests.
+
+### Prepping the Webhook for Production
+
+Now that the webhook is tested locally and is secured, you can push to prod. You will need to create a new webhook url that corresponds to your live url and replace the secret value in the env file with the secret Hashnode will provide for your new production webhook.
+
+You can also consider having different [env files and configurations](https://nextjs.org/docs/pages/building-your-application/configuring/environment-variables) for different environments.
+
 ## Notes on Semantic Search and Hybrid Search
 
 This blog went through the process of adding search functionality using [Supabase full text search](https://supabase.com/docs/guides/ai/keyword-search), which uses keyword matches. There are two other types of search that can be implemented using Supabase.
