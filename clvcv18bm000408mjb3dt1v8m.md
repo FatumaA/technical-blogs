@@ -746,6 +746,8 @@ Go back to the webhook section of the Hashnode dashboard and click the test butt
 
 Additionally, you can see events related to the webhook at [`http://localhost:4040/inspect/http`](http://localhost:4040/inspect/http) when running Ngrok.
 
+### How to Secure your Webhook
+
 ## Notes on Semantic Search and Hybrid Search
 
 This blog went through the process of adding search functionality using [Supabase full text search](https://supabase.com/docs/guides/ai/keyword-search), which uses keyword matches. There are two other types of search that can be implemented using Supabase.
