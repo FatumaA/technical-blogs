@@ -528,9 +528,9 @@ You now ready to test out the search functionality. This is how the implementati
 
 ## Handling Blog Changes with Hashnode Webhooks
 
-Search now works but Supabase is searching against the initial posts, what happens when you update or delete a blog? Or even publish a new blog? So far, Supabase has no way of reacting to this changes meaning that soon your search results will not be on par with your latest Hashnode blogs.
+Search now works but Supabase is searching against the initial posts, what happens when you update or delete a blog? Or even publish a new blog? So far, Supabase has no way of reacting to these changes meaning that soon your search results will not be on par with your latest Hashnode blogs.
 
-To fix that, you need to configure webhooks so Hashnode can alert your blog application whenever you update, delete or publish a blog. Then you need to add some logic that keep Supabase in sync with these events.
+To fix that, you need to configure webhooks so Hashnode can alert your blog application whenever you update, delete or publish a blog. Then you need to add some logic that will keep Supabase in sync with these events.
 
 In your Hashnode dashboard, scroll down to webhooks and click on "Add a New Webhook", fill in the information like so then click "Create".
 
@@ -730,9 +730,21 @@ export const getBlogQuery = gql`
 `;
 ```
 
-Lastly, you need to test the webhook. Go back to the webhook section of the Hashnode dashboard and click the test button. You should a success message if there is no issue. You can also see the history of all invocations by clicking on the history tab
+### Testing Webhooks Locally with Ngrok
+
+Lastly, you need to test the webhook. You will notice Hashnode does not allow you to use a http url, it requires a https based one. Yet pushing your new API route directly to prod without testing it locally is not a good idea.
+
+You can use [Ngrok](https://ngrok.com/) to get a https url connected to your local running application. You will need it installed, follow this [guide](https://ngrok.com/docs/getting-started/) for details on how to do that.
+
+After installation, run this command in a second terminal window in your integrated terminal: `ngrok http http://localhost:3000`, while your app is running in the first terminal window. This will spin up a temp url that is connected to your local app. You can use this url to test the new api route created above in the Hashnode webhook dashboard.
+
+You can claim a [static domain](https://ngrok.com/blog-post/free-static-domains-ngrok-users) that does not change instead of Ngrok always generating random domains every time you run the `ngrok` command. This would change the command used to run Ngrok to `http --domain=`[`static-domain-given-free.app`](http://currently-quality-donkey.ngrok-free.app)[`http://localhost:3000`](http://localhost:3000).
+
+Go back to the webhook section of the Hashnode dashboard and click the test button. You should see a success message if there is no issue. You can also see the history of all invocations by clicking on the history tab
 
 ![A screenshot of the webhook Hashnode dashboard showing the test button and the success alert](https://cdn.hashnode.com/res/hashnode/image/upload/v1714050187940/860fcf5b-4414-4fa3-9dd0-5e3f1eacbd0f.png align="center")
+
+Additionally, you can see events related to the webhook at [`http://localhost:4040/inspect/http`](http://localhost:4040/inspect/http) when running Ngrok.
 
 ## Notes on Semantic Search and Hybrid Search
 
@@ -740,7 +752,7 @@ This blog went through the process of adding search functionality using [Supabas
 
 The first is semantic search, this type takes into account the potential intent and the context of a user's query when carrying out the search. It is more accurate and is better suited to searching through very large volumes of data.
 
-The quickest way to get started with this is via AI (Artificial Intelligence) models. This has been simplified in Supabase launch week 11 and you can learn more about it [here](https://www.youtube.com/watch?v=w4Rr_1whU-U).
+The quickest way to get started with this is via AI (Artificial Intelligence) models. This has been simplified in Supabase GA lunch week and you can learn more about it [here](https://www.youtube.com/watch?v=w4Rr_1whU-U).
 
 The second way is through hybrid search. Essentially, this leverages both full text search and semantic search. It offers the best of both worlds and you can read more about it [here](https://supabase.com/docs/guides/ai/hybrid-search).
 
@@ -757,4 +769,4 @@ Here are some resources that are useful:
 * [Next.js Learn - App router](https://nextjs.org/docs/app)
     
 
-**Disclaimer:***I'm yet to completely move to headless hashnode. At the time of writing, clicking on my blog posts will redirect back to a subdomain.*
+\*\*Disclaimer:\*\**I'm yet to completely move to headless hashnode. At the time of writing, clicking on my blog posts will redirect back to a subdomain.*
