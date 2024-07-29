@@ -5,7 +5,7 @@ seoDescription: "Boost accessibility effortlessly with Easy Alt, an AI-powered V
 datePublished: Sun Jul 28 2024 15:53:15 GMT+0000 (Coordinated Universal Time)
 cuid: clz5qozzh000q09jjhog5etr3
 slug: auto-add-alt-text-to-img-tags-with-easy-alt-an-ai-powered-vscode-extension
-cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1722181981734/942632fe-0bd7-4477-bc6c-da62c0b80fd2.png
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1722289843344/7c5ffe1c-1a8d-49b8-966d-aec290d58897.png
 tags: vscode-extensions, huggingface, ai-tools, huggingface-inference, aifortomorrow
 
 ---
@@ -28,7 +28,7 @@ By making this step a little more straightforward for developers, Easy Alt incre
 
 I found myself stopping more and more frequently to think about alt text for my images, whether when coding or when writing blogs. Then I discovered Hashnode's AI feature could generate alt text for my images and screenshots while writing blogs. I really loved the experience of that and found it much less tasking to double check the descriptions the AI provided.
 
-\*insert screenshot/link to twitter post aboutit\*
+%[https://x.com/XquisiteDreamer/status/1796501071550099535] 
 
 Soon enough, I started missing this feature when blogging in other platforms and when writing code in my editor. Hashnode spoiled me in a way and the idea was born.
 
