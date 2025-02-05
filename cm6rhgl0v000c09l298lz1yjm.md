@@ -100,7 +100,7 @@ Here are some reasons I’d be a fit for your team:
 
 ### When Can I Start?
 
-I’m ready to start in March 2025, when my current project at Wikimedia will be ending. You can reach me via [Twitter](https://x.com/XquisiteDreamer), [LinkedIn](https://www.linkedin.com/in/fatuma-abdullahi-6b804948/) or [Email](http://mailto:fatuma@hijabicoder.dev).
+I’m ready to start in March 2025, when my current project at Wikimedia will be ending. You can reach me via [Twitter](https://x.com/XquisiteDreamer), [LinkedIn](https://www.linkedin.com/in/fatuma-abdullahi-6b804948/) or [Email](mailto:fatuma@hijabicoder.dev).
 
 You can also reach out to any of these amazing open-source developers I’ve collaborated with:
 
