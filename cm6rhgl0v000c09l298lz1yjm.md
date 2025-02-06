@@ -9,6 +9,12 @@ tags: frontend, accessibility, frontend-development, jobs, job-hunting, design-s
 
 ---
 
+Over the last couple of months, I have been [working on migrating Wikimedia’s design system, Codex, to Penpot](https://blog.hijabicoder.dev/taking-apart-and-putting-together-wikimedias-design-system). So far, I’ve successfully recreated over 1,000 components and variants, and I’m about to start the final phase - piloting the new library and prepping reports.
+
+While this was an exciting and fun project, it’s a short-term project. As it wraps up, I’m actively looking for new opportunities in front-end development - ideally in open source, design systems, and accessibility.
+
+## The Backstory
+
 [My tech career](https://blog.hijabicoder.dev/my-2022-reflections-dev-retro-2022) has always been one of exploration, curiosity, and experimentation. Over the years, I have tried UI design, Frontend, Mobile Multi-platform, Serverless, Microservices, Databases, Open-source, and Technical writing. I even took a brief detour into DevOps - and quickly turned back 😅. It was clear that it just wasn’t my thing.
 
 ![A toddler runs down a hallway with excitement, wearing a black shirt and patterned pants, before turning around getting and going back quickly.](https://cdn.hashnode.com/res/hashnode/image/upload/v1738311194235/d4225dd3-3a27-4ce6-9e19-0ad47249801e.gif align="center")
@@ -42,9 +48,9 @@ Beyond code, I also participate in the community by giving talks, writing tutori
     
 * Joining [Supabase’s SupaSquad](https://supabase.com/open-source/contributing/supasquad) - an unofficial group of advocates.
     
-* Organizing [multiple events for Supabase’s launch week](https://x.com/XquisiteDreamer/status/1828748900616024379) across two cities. And having a turnout of about 40%.
+* Organizing [multiple events for Supabase’s launch week](https://x.com/XquisiteDreamer/status/1828748900616024379) across two cities, with a turnout of about 40%.
     
-* Getting accepted into the [Road to GDE](https://blog.google/technology/developers/road-to-gde-supporting-future-google-developer-experts/) cohort 3 program
+* Getting accepted into Google’s [Road to GDE](https://blog.google/technology/developers/road-to-gde-supporting-future-google-developer-experts/) cohort 3 program
     
 * Becoming a [FreeCodeCamp author](https://www.freecodecamp.org/news/author/HijabiCoder/).
     
