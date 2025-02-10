@@ -73,7 +73,7 @@ I’d be most excited to work with organizations that are:
     
 * In the DevTool space or that are working towards a noble goal greater than themselves. For example, Wikimedia’s goal is to democratize the world’s knowledge.
     
-* Fully remote, hiring globally, or that are willing to offer relocation sponsorship.
+* Remote, hiring globally, or that are willing to offer relocation sponsorship.
     
 
 ### The Perfect Role
