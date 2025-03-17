@@ -3,7 +3,7 @@ title: "How to Add SSR Auth to Astro with Supabase and Astro Actions"
 seoDescription: "Learn how to integrate server-side rendered authentication in Astro projects using Supabase and Astro actions for secure, scalable web applications"
 datePublished: Mon Mar 17 2025 17:44:25 GMT+0000 (Coordinated Universal Time)
 cuid: cm8dctled000009le1cd87g1y
-slug: how-to-add-ssr-auth-to-astro-with-supabase-and-astro-actions
+slug: how-to-add-ssr-auth-to-with-supabase-and-astro
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1742233380842/89bbcdbb-a215-4f28-ab91-92c6aa9eb2e5.png
 tags: authentication, supabase, astro
 
