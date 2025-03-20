@@ -1,9 +1,9 @@
 ---
-title: ""Chat, Am I a Design Engineer?" (An Outreachy Retrospective)"
+title: "Design + Code? (An Outreachy Retrospective)"
 seoDescription: "Reflecting on my experiences and growth during the Wikimedia design system project through Outreachy"
 datePublished: Wed Mar 19 2025 21:40:45 GMT+0000 (Coordinated Universal Time)
 cuid: cm8gg58cc000f09l49fhg4t7e
-slug: chat-am-i-a-design-engineer-an-outreachy-retrospective
+slug: design-code-an-outreachy-retrospective
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1742420200250/53b7c3a2-297a-485a-9682-8a5e6ac73df4.png
 tags: career, wikipedia, outreachy, retrospective, design-engineer
 
