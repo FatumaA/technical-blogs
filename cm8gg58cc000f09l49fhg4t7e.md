@@ -55,4 +55,4 @@ I will continue to be involved on a volunteer basis in both [the design system](
 
 ## Final Thoughts
 
-Being [an Outreachy alumna](https://www.outreachy.org/) and working on such an interesting project has been rewarding. I learned a lot, developed my design skills, had interesting conversations, and made new connections. I couldn’t be more grateful.
+Being [an Outreachy alumna](https://www.outreachy.org/) and working on such an interesting project has been rewarding. I learned a lot, developed my design skills, had [interesting conversations](https://blog.hijabicoder.dev/4-coffee-chats-4-lessons), and made new connections. I couldn’t be more grateful.
