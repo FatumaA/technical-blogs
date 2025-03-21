@@ -24,7 +24,7 @@ This blog assumes that you are familiar with the following concepts:
 
 ## What is Supabase?
 
-[Supabase](https://supabase.com/docs) is an open-source Backend-as-a-Service that builds upon Postgres. It provides common key features such as authentication, real-time, edge functions, storage, and more.
+[Supabase](https://supabase.com/docs) is an open-source Backend-as-a-Service that builds upon [Postgres](https://www.postgresql.org/docs/). It provides common key features such as authentication, real-time, edge functions, storage, and more.
 
 Supabase offers a hosted version that makes building and scaling production-ready apps easy and a self-hostable version that gives users full control.
 
@@ -34,7 +34,7 @@ Supabase offers a hosted version that makes building and scaling production-read
 
 ### What are Astro Actions?
 
-Astro actions allow you to write server-side functions that can be called without explicitly setting up API routes. Out of the box, they provide many useful utilities that simplify the process of running server logic.
+[Astro actions](https://docs.astro.build/en/guides/actions/) allow you to write server-side functions that can be called without explicitly setting up API routes. Out of the box, they provide many useful utilities that simplify the process of running server logic.
 
 Astro actions can be called from both client and server environments.
 
@@ -115,7 +115,10 @@ Get the correct values from the Supabase dashboard:
 
 ![Screenshot of a "Connect to your project" interface showing options to get connection strings and environment variables using the Supabase-js library with the Astro framework. It demonstrates how to import Supabase credentials in a JavaScript file.](https://cdn.hashnode.com/res/hashnode/image/upload/v1742054292788/8aeec326-259c-49bd-a6f8-b885e9a9e6ea.png align="center")
 
-Note that in Astro, all environment variables to be accessed on the client side need to be prefixed by ‘PUBLIC,’ but in this case, we will be using Astro actions that run on the server, so we won’t need the prefix.
+<div data-node-type="callout">
+<div data-node-type="callout-emoji">💡</div>
+<div data-node-type="callout-text">Note that in Astro, all environment variables to be accessed on the client side need to be prefixed by ‘PUBLIC,’ but in this case, we will be using Astro actions that run on the server, so we won’t need the prefix.</div>
+</div>
 
 Then, create a lib folder in the `src` folder and add a `supabase.ts` file. Paste this code into it:
 
@@ -151,7 +154,7 @@ export function createClient({
 
 This sets up Supabase to handle [cookies in a server-rendered application](https://supabase.com/docs/guides/auth/server-side/creating-a-client?queryGroups=framework&framework=astro&queryGroups=environment&environment=astro-browser) and exports a function that takes in the request and cookies object. The function is set up like this because Astro has three ways to access request and cookie information:
 
-* Through Astro’s global object, which is only available in Astro pages.
+* Through Astro’s global object, which is only available on Astro pages.
     
 * Through `AstroAPIContext` object, which is only available in Astro actions.
     
@@ -190,6 +193,10 @@ export const onRequest = defineMiddleware(async (context, next) => {
 	return next();
 });
 ```
+
+This file checks to see if there is an active user when we are on the protected route. If there is no user, it redirects to the index page, and if there is an active user, it allows the request to continue as is.
+
+Thus guarding the protected route from unauthenticated access.
 
 ## Set up the UI
 
