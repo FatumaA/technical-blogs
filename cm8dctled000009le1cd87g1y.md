@@ -54,6 +54,8 @@ On the other hand, Single-Page Applications (SPAs), like traditional React apps,
 
 SPAs typically use JWTs, which are stored in local storage, cookies, or session storage. When the application needs to communicate with a server, it sends these tokens in the HTTP headers.
 
+%[https://www.youtube.com/watch?v=HdE3dk8VkRU] 
+
 ## Set Up Supabase Backend
 
 To start, you will need [a Supabase account](https://supabase.com/dashboard/). Then, follow the prompts to create a project. Go to the Authentication tab in the sidebar, click the Sign In / Up tab under Configuration, and enable user sign-ups. Then scroll down to Auth Providers and enable email.
