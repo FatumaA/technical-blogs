@@ -90,7 +90,7 @@ Then in the `Layout.astro` file, add this script just above the closing `</head>
 	<script
 			src="https://challenges.cloudflare.com/turnstile/v0/api.js"
 			async
-			defer></script> 
+			defer></script>
 ```
 
 You can read more [about Cloudflare Turnstile](https://developers.cloudflare.com/turnstile/get-started/) to understand the flow better.
@@ -271,7 +271,7 @@ You should see the [same screen as before](https://blog.hijabicoder.dev/how-to-a
 
 You should see that all works by attempting to sign in. You should receive an email and be correctly redirected to the `protected` page.
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1750268231748/0c06153c-4289-4125-99ef-187eb2012225.png align="center")
+![Text reads: "You are logged in!" with a field labeled "Your user Id" and a "Sign Out" button below.](https://cdn.hashnode.com/res/hashnode/image/upload/v1750335131827/f85cde2f-f9bb-46b0-a09e-6ae6456cd49f.png align="center")
 
 With that, you have successfully protected your auth form in an Astro project using Supabase auth and Cloudflare’s Turnstile.
 
